@@ -165,7 +165,7 @@ h3 {
 .cards {
   display: flex;
   gap: 41px;
-  margin: 42px 0 0;
+  margin: 42px 0 194px;
 }
 .card{
   display: flex;
@@ -212,3 +212,40 @@ h3 {
   background-color: var(--blue);
   transition: 0.3s;
 }
+
+.h3-width {
+  width: 448px;
+  margin-bottom: 12px;
+}
+
+.desings {
+  display: flex;
+  gap: 1.3em;
+}
+.des-left , .des-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+}
+.desing-img {
+  max-width: 545px;
+  width: 100%;
+  border-radius: 12px;
+}
+.des-one {
+  margin-top: 166px;
+}
+.desing-description {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: var(--other-text);
+  margin-top: 20px;
+}
+.desing-name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: var(--principal-text);
+}
+

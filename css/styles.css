@@ -213,6 +213,7 @@ h3 {
   transition: 0.3s;
 }
 
+/* -------------------- */
 .h3-width {
   width: 448px;
   margin-bottom: 12px;
@@ -220,27 +221,29 @@ h3 {
 
 .desings {
   display: flex;
-  gap: 1.3em;
-}
-.des-left , .des-right {
-  display: flex;
-  flex-direction: column;
-  gap: 1.3em;
+  gap:27px
 }
 .desing-img {
-  max-width: 545px;
+  max-height: 543px;
+  height: 100%;
+  max-width: 543px;
   width: 100%;
   border-radius: 12px;
 }
 .des-one {
-  margin-top: 166px;
+  max-width: 545px;
+  width: 100%;
+  margin: 176px 0 141px;
+}
+.des-three {
+  margin-bottom: 154px;
 }
 .desing-description {
   font-size: 14px;
   line-height: 21px;
   font-weight: 300;
   color: var(--other-text);
-  margin-top: 20px;
+  margin: 20px 0 5px;
 }
 .desing-name {
   font-size: 24px;
@@ -248,4 +251,110 @@ h3 {
   line-height: 36px;
   color: var(--principal-text);
 }
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 17px;
+  margin-top: 110px;
+}
+.more {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  width: 113px;
+  color: var(--blue);
+  cursor: pointer;
+}
+.blue-arrow {
+  width: 15.78px;
+  cursor: pointer;
+}
 
+/* ---bot--- */
+.bot {
+  max-width: 1110px;
+  width: 100%;
+  margin: 219px auto 0 auto;
+}
+.text-red {
+  color: var(--red);
+}
+.h3-resize {
+  width: 280px;
+  margin: 7px 0 14px;
+}
+.lorem-size {
+  width: 273px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.members {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.mens {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+.member-photo {
+  border-radius: 24px;
+}
+.member-one {
+  max-width: 320px;
+  width: 100%;
+}
+.member-two {
+  max-width: 260px;
+  width: 100%;
+}
+.member-one {
+  max-width: 291px;
+  width: 100%;
+}
+
+/* ------------------ */
+.recomendation {
+  margin: 196px 0 200px;
+}
+h4 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+  max-width: 937px;
+  width: 100%;
+  color: var(--principal-text);
+}
+.by {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 45px;
+}
+.carlos {
+  width: 82px;
+  border-radius: 12px;
+}
+.carlos-name {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--principal-text);
+}
+.puesto {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: var(--other-text);
+  margin-top: 12px;
+}
+
+
+@media screen and (max-width: 1049px) {
+  
+}

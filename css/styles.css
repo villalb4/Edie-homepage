@@ -4,10 +4,15 @@
   --principal-text : #333333;
   --secundari-text : #4F4F4F;
   --other-text : #828282;
+  --inputs-text: #BDBDBD;
 
   --blue : #2D9CDB;
   --green : #27AE60;
   --red : #EB5757;
+  --gray : #F2F2F2;
+  --gray-smooth: #E0E0E0;   
+  --white : #FFF;
+
 }
 
 * {
@@ -65,7 +70,7 @@ main {
   margin-top: 54px;
 }
 .proposal {
-  margin-left: 220px;
+  margin-left: 16%;
 }
 .color-text {
   font-size: 18px;
@@ -100,4 +105,110 @@ h2 {
   line-height: 27px;
   width: 366px;
   color: var(--secundari-text);
+}
+.little-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--other-text);
+  margin: 42px 0 9px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 45.7px; */
+  height: 57px;
+  width: 350px;
+  border-radius: 12px;
+  background-color: var(--gray);
+}
+.input {
+  border: none;
+  padding: 17px;
+  width: 250px;
+  border-radius: 12px;
+  background-color: var(--gray);
+}
+.input::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--inputs-text);
+}
+.input:focus {
+  outline: none;
+}
+.button-join {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-decoration: none;
+  color: var(--white);
+  padding: 11px 27px;
+  border-radius: 12px;
+  background-color: var(--blue);
+}
+
+/* --mid-- */
+.mid {
+  max-width: 1110px;
+  width: 100%;
+  margin: 200px auto 0 auto;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+  width: 346px;
+  color: var(--principal-text);
+}
+.cards {
+  display: flex;
+  gap: 41px;
+  margin: 42px 0 0;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 341px;
+  padding: 46px 34px;
+  border-radius: 24px;
+  background-color: var(--white);
+}
+.card:hover {
+  box-shadow: 0px 10px 30px 0px #3333331A;
+  transition: 0.3s;
+}
+.icons {
+  width: 67px;
+}
+.stacks {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: var(--principal-text);
+  margin: 35px 0 24px;
+}
+.lorem {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--secundari-text);
+  margin-bottom: 30px;
+}
+.started {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  color: var(--other-text);
+  max-width: 116px;
+  padding: 9px 12px;
+  border-radius: 12px;
+  background-color: var(--gray-smooth);
+}
+.started:hover {
+  color: var(--white);
+  background-color: var(--blue);
+  transition: 0.3s;
 }

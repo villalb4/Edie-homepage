@@ -38,12 +38,16 @@ header {
   margin: 0 auto;
   padding: 42px 52px;
 }
+
 .logo {
   font-family: 'Heebo';
   font-size: 36px;
   line-height: 52.88px;
   color: var(--principal-text);
   cursor: pointer;
+}
+.menu {
+  display: none;
 }
 ul {
   display: flex;
@@ -382,11 +386,15 @@ footer {
 }
 
 .logo-white {
-  color: var(--white);
+  color: var(--gray);
 }
 .social-icons {
   display: flex;
+  align-items: center;
   gap: 11px;
+}
+.social {
+  cursor: pointer;
 }
 .little-footer {
   color: var(--white);
@@ -399,15 +407,88 @@ footer {
   font-size: 14px;
   font-weight: 400;
   padding-bottom: 24px;
-  color: var(--white);
+  color: var(--gray);
 }
 .iam {
   font-weight: 700;
   text-decoration: none;
-  color: var(--white);
+  color: var(--gray);
 }
 
 
-@media screen and (max-width: 1049px) {
-  
+@media screen and (max-width: 999px) {
+  header {
+    /* padding: 13px 10px; */
+  }
+  .logo {
+    font-size: 30px;
+    line-height: 35.25px;
+  }
+  .menu {
+    display: inline;
+  }
+  nav {
+    display: none;
+  }
+
+
+  .color-text {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 272px;
+    margin: 0 0 15px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 227px;
+    margin: 25px 0;
+  }
+  .description {
+    font-size: 16px;
+    line-height: 27px;
+    width: 400px;
+  }
+
+
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 220px;
+  }
+  .h3-width {
+    width: 250px;
+  }
+  .cards {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+
+  .des-one , .des-three {
+    margin: 0 0 70px;
+  }
+  .card {
+    /* margin: 0 auto; */
+  }
+  .desings {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 80px;
+  }
+
+  .team {
+    flex-direction: column;
+  }
+
+  h4 {
+    font-size: 26px;
+    line-height: 40px;
+  }
 }

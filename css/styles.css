@@ -93,7 +93,9 @@ h1 {
   margin: 16px 0 42px;
 }
 .hero-img {
+  max-height: 354px;
   max-width: 1332px;
+  height: 100%;
   width: 100%;
   border-radius: 18px;
 }
@@ -320,7 +322,7 @@ h3 {
   max-width: 260px;
   width: 100%;
 }
-.member-one {
+.member-three {
   max-width: 291px;
   width: 100%;
 }
@@ -417,9 +419,6 @@ footer {
 
 
 @media screen and (max-width: 999px) {
-  header {
-    /* padding: 13px 10px; */
-  }
   .logo {
     font-size: 30px;
     line-height: 35.25px;
@@ -456,24 +455,25 @@ footer {
 
 
   h3 {
-    font-size: 20px;
-    line-height: 30px;
-    width: 220px;
+    font-size: 24px;
+    line-height: 36px;
+    width: 259px;
   }
   .h3-width {
-    width: 250px;
+    font-size: 24px;
+    line-height: 36px;
+    width: 267px;
+    margin-bottom: 0;
   }
   .cards {
     flex-direction: column;
+    gap: 72px;
     margin-bottom: 100px;
   }
 
 
   .des-one , .des-three {
     margin: 0 0 70px;
-  }
-  .card {
-    /* margin: 0 auto; */
   }
   .desings {
     flex-direction: column;
@@ -491,5 +491,130 @@ footer {
   h4 {
     font-size: 26px;
     line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 729px) {
+  header {
+    padding: 13px 10px 0 10px;
+  }
+  main {
+    padding: 0 10px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+
+  .proposal {
+    margin-left: 8%;
+  }
+  .color-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .form {
+    height: 47px;
+    width: 291px;
+  }
+  .input {
+    width: 212px;
+    padding: 12px;
+  }
+  .button-join {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 9px 20px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 227px;
+    margin: 22px 0 33px;
+  }
+  .description {
+    font-size: 12px;
+    line-height: 18px;
+    width: 275px;
+  }
+  .little-text {
+    margin-top: 31px;
+  }
+
+  .mid {
+    margin-top: 102px;
+  }
+
+  .des-one , .des-three {
+    margin: 0 0 36px;
+  }
+
+  .desings {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-top: 48px;
+  }
+  
+  .desing-description {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 12.59px 0 0;
+  }
+  .desing-img {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 12px;
+  }
+  .desing-name {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+
+
+
+  .see-more {
+    margin-top: 36.64px;
+    justify-content: flex-start;
+  }
+
+  .bot {
+    margin-top: 100px;
+  }
+  .team {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .members , .mens {
+    gap: 8.91px;
+  }
+  .member-one {
+    max-width: 178px;
+    width: 100%;
+  }
+  .member-two {
+    max-width: 144.76px;
+    width: 100%;
+  }
+  .member-three {
+    max-width: 162px;
+    width: 100%;
+  }
+
+  .recomendation {
+    margin: 100px 0;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 351px;
+  }
+  footer {
+    padding: 36px 10px 0 10px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 64.5px;
   }
 }
